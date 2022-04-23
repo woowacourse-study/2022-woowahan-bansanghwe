@@ -5,7 +5,7 @@
 메타 인지 향상을 목적으로 합니다. 질문에 답을하며 모르는것과 아는것을 구분하고 모르는것을 하나 하나 지워나갑니다.
 
 ## 구성원
-[마르코](https://github.com/wonsss), [우디](https://github.com/greenblues1190), [코이](https://github.com/InKyoJeong), [병민](https://github.com/airman5573), [동키콩](https://github.com/JUDONGHYEOK) [위니](https://github.com/rladpwl0512)
+[마르코](https://github.com/wonsss), [우디](https://github.com/greenblues1190), [코이](https://github.com/InKyoJeong), [병민](https://github.com/airman5573), [동키콩](https://github.com/JUDONGHYEOK), [위니](https://github.com/rladpwl0512)
 
 ## 일시
 
