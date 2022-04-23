@@ -1,0 +1,100 @@
+질문 리스트
+
+- [`js`] var vs let vs const
+- [`js`, `비동기`] callback vs promise
+- [`js`] 함수레벨 스코프 vs 블록레벨 스코프
+- [`js`] 실행 컨텍스트와 호이스팅
+- [`js`] 실행 컨텍스트와 클로저
+- [`js`] 실행 컨텍스트와 블록 레벨 스코프
+- [`js`] prototype
+- [`js`] regular function vs arrow function
+- [`js`] this
+- [`js`, `비동기`] async/await
+- [`js`] error handling
+- [`js`] generator
+- [`js`] iterable
+- [`js`] call vs apply vs bind
+- [`js`, `performance`] click event listener에 화살표 함수를 넣는것 vs 일반 함수를 bind하는것
+- [`js`] 생성자 함수
+- [`js`, `design pattern`] mutable vs immutable
+- [`js`, `event`] event delegation
+- [`js`, `array`] 배열 메서드
+- [`js`] undefined vs null
+- [`js`] symbol
+- [`js`] falsy && truthy
+- [`js`] 옵셔널 체이닝
+- [`js`] hasOwnProperty의 위험성
+- [`js`] primitive type vs object
+- [`js`] 순수 함수와 비순수 함수
+- [`js`] 일급 함수
+- [`js`] 전역 스코프와 지역 스코프
+- [`js`] 스코프 체인
+- [`js`] var의 문제점
+- [`js`] property descriptor
+- [`js`] 객체 변경을 방지하는 방법
+- [`js`] 객체 리터럴 vs 생성자 함수
+- [`js`] 객체의 프로퍼티 열거와 순회
+- [`js`] strict mode
+- [`js`] class의 property(field)
+- [`js`] rest 파라미터
+- [`js`] 배열의 고차함수
+- [`js`] Number 메서드
+- [`js`] Math 메서드
+- [`js`] String 메서드
+- [`js`] Iterable
+- [`js`] Set vs Map
+- [`js`, `DOM`] HTMLCollection vs NodeList
+- [`js`, `DOM`] innerHTML vs insertAdjacentHTML
+- [`js`, `DOM`] HTML 어트리뷰트 vs. DOM 프로퍼티
+- [`js`, `event`] Event Type
+- [`js`, `event`] Event Handler내의 this
+- [`js`, `timer`] setInterval vs recursive setTimeout
+- [`browser`] 브라우저의 렌더링 과정
+- [`browser`] reflow를 발생시키는 style property
+- [`browser`] repaint를 발생시키는 style property
+- [`browser`, `event-loop`] macro task queue 사용 사례
+- [`browser`, `event-loop`] micro task queue 사용 사례
+- [`browser`, `event-loop`] animationFrameQueue task queue 사용 사례
+- [`browser`, `event-loop`] setTimeout vs requestAnimationFrame
+- [`browser`] 렌더링 최적화
+- [`browser`, `server`, `network`] 웹의 요청과 응답
+- [`html`] defer vs async
+- [`js`] 다른 두 js파일에서 변수를 공유하는 방법
+- [`js`, `event`] page load 이벤트
+- [`js`, `event`] bubbling 사용 예제
+- [`js`, `event`] capturing 사용 예제
+- [`js`] Element vs Node
+- [`js`, `event`] `element.onclick(doSomthing)` vs `element.addEventListener(doSomething)`
+- [`js`, `performance`, `timer`] debounce vs throttle
+- [`js`, `storage`] cookies vs localStorage vs session storage
+- [`js`, `module`] module
+- [`js`] decorator
+- [`js`] proxy
+- [`js`] intersection observer
+- [`js`, `browser`] history api
+- [`http`] http/1.1 vs http/2
+- [`network`] DNS
+- [`react`] JSX
+- [`react`] VirtualDOM
+- [`react`] key in list
+- [`react`] children 사용 예시
+- [`react`, `event`] event delegation
+- [`react`, `hooks`] life cycle in hooks
+- [`react`, `hooks`] useMemo vs useCallback vs React.memo
+- [`react`] react에서 클로저를 사용하는 경우
+- [`react`] render vs reconsile
+- [`react`] render가 되는 경우
+- [`react`, `hooks`] useRef
+- [`react`, `hooks`] useState && useEffect
+- [`react`, `hooks`] useContext
+- [`react`, `hooks`] useReducer
+- [`react`, `hooks`] useLayoutEffect
+- [`react`, `hooks`] class로 하지 못하는 것들 중에서 hooks로 가능한것
+- [`react`, `performance`] 렌더링 최적화
+- [`react`] 변경 이전의 state를 가져오는 방법
+- [`react`, `hooks`] forceUpdate in hooks
+- [`react`, `hooks`] useEffect안에 함수를 정의해서 사용하는 경우
+  - https://ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies
+- [`react`] shouldComponentUpdate in hooks
+- [`react`] inheritance vs composition
+
