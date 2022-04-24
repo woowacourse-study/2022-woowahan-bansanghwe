@@ -27,4 +27,4 @@
 
 ## 기타 등등
 - [질문 리스트](./question-list.md)
-
+- [3기 하브루타 프론트엔드 스터디](https://github.com/woowacourse-fe-study/havruta-frontend)
