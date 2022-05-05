@@ -75,6 +75,9 @@
 - [`react`] 재조정(reconciliation)
 - [`react`, `async`, `network`] 외부 API를 사용해서 data가져오기 
 - [`react`] VirtualDOM이 필요한 이유
+- [`react`] render vs mount vs unmount vs re-render
+- [`react`] suspense
+- [`react`] concurrent mode
 
 ### Focus on React Development Environment
 - [`webpack`, `babel`] CRA없이 React환경 구성해보자
