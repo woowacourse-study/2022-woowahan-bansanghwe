@@ -1,5 +1,7 @@
 ## 질문 리스트
 
+### Focus on JS
+
 - [`js`] var vs let vs const
 - [`js`, `비동기`] callback vs promise
 - [`js`] 함수레벨 스코프 vs 블록레벨 스코프
@@ -74,27 +76,80 @@
 - [`js`, `browser`] history api
 - [`http`] http/1.1 vs http/2
 - [`network`] DNS
-- [`react`] JSX
-- [`react`] VirtualDOM
-- [`react`] key in list
-- [`react`] children 사용 예시
-- [`react`, `event`] event delegation
-- [`react`, `hooks`] life cycle in hooks
-- [`react`, `hooks`] useMemo vs useCallback vs React.memo
-- [`react`] react에서 클로저를 사용하는 경우
-- [`react`] render vs reconsile
-- [`react`] render가 되는 경우
-- [`react`, `hooks`] useRef
-- [`react`, `hooks`] useState && useEffect
-- [`react`, `hooks`] useContext
-- [`react`, `hooks`] useReducer
-- [`react`, `hooks`] useLayoutEffect
-- [`react`, `hooks`] class로 하지 못하는 것들 중에서 hooks로 가능한것
-- [`react`, `performance`] 렌더링 최적화
-- [`react`] 변경 이전의 state를 가져오는 방법
-- [`react`, `hooks`] forceUpdate in hooks
-- [`react`, `hooks`] useEffect안에 함수를 정의해서 사용하는 경우
-  - https://ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies
-- [`react`] shouldComponentUpdate in hooks
-- [`react`] inheritance vs composition
+
+### Focus on React
+- [`react`, `hook`] useState
+	- 같은 값으로 setState해도 re-redering이 될까?
+		- ko.reactjs.org/docs/hooks-reference.html#bailing-out-of-a-state-update
+	- props로 초기값을 받을때 props가 바뀌면 초기값도 바뀔까?
+	- 이전 상태값 가져오기
+		- ko.reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state
+	- 상태값을 객체에 다 때려 넣기 vs 쪼개서 다른 상태값으로 관리하기
+		- ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables
+	- useState안에 함수를 넣으면?
+	- setState안에 함수를 넣으면?
+- [`react`, `hook`] useEffect
+	- dependency에 함수를 넣으면?
+	- useEffect안에서 함수를 정의하는 경우
+		- ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies
+	- dependency에 state를 넣지 않고도 안에서 state를 사용하는 방법
+		- ko.reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often
+- [`react`, `hook`] useCallback
+	- 최적화에 어떤 도움을 주는가?
+- [`react`, `hook`] useMemo
+	- 최적화에 어떤 도움을 주는가?
+	- useMemo vs React.memo
+- [`react`, `hook`, `context`] useContext
+	- Context는 무엇이고 왜 쓰는가?
+- [`react`, `hook`, `context`] useReducer
+- [`react`, `hook`, `ref`] useRef
+- [`react`, `hook`] useLayoutEffect
+- [`react`, `hook`] useImperativeHandle
+- [`react`, `hook`] useId
+- [`react`, `hook`] useDeferredValue
+- [`react`, `hook`] useSyncExternalStore
+- [`react`, `hook`] useInsertionEffect
+- [`react`, `hook`] useTransition
+- [`react`, `hook`] customHook만들기
+- [`react`, `context`] Context API
+	- Context가 꼭 필요할까? composition으로 props drilling을 극복해보자
+	- Provider? Consumer?
+	- displayName은 왜 필요한걸까?
+	- Context Provider를 겹겹이 쓰면 어떻게 될까?
+	- Context를 여러개로 나누는 이점이 있을까?
+- [`react`, `jsx`] JSX
+	- JSX가 변환된 모습
+	- if-else는 왜 사용할 수 없을까?
+	- map은 되는데 for는 왜 안될까?
+	- forEach를 사용할 수 있을까?
+- [`react`] 순수함수란 무엇인가?
+- [`react`] Class Component에 비해 Hook + Functional Component가 가지는 이점은?
+- [`react`, `hook`] useState는 어떻게 이전 상태를 기억하는가?
+	- https://ko.reactjs.org/docs/hooks-faq.html#how-does-react-associate-hook-calls-with-components
+- [`react`] 강제 re-rendering시키는 방법 (forceUpdate)
+	- https://ko.reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate
+- [`react`, `hook`] 왜 조건문 안에 hook을 쓰면 안될까?
+- [`react`] 조건적으로 rendering을 하는 방법
+- [`react`] rendering자체를 막는 방법
+- [`react`, `performance`] React.memo
+	- shouldComponentUpdate처럼 사용하기
+		- ko.reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate
+	- useMemo를 React.memo처럼 사용하는 방법
+		- ko.reactjs.org/docs/hooks-faq.html#how-to-memoize-calculations
+- [`react`, `performance`] 배열을 map돌려서 list를 그릴때 key가 왜 필요한가?
+	- https://ko.reactjs.org/docs/reconciliation.html#keys
+- [`react`, `performance`] index를 key로 쓰면 안되는 이유는?
+- [`react`] Controlled Component vs Uncontrolled Component
+- [`react`] Presentational Component vs Container Component
+- [`react`] props drilling이란?
+- [`react`] Strict Mode
+- [`react`, `ref`] forwarding refs
+- [`react`] fragment
+- [`react`] Higher Order Component (HOC)
+- [`react`] React에서 jQuery를 사용할 수 있을까?
+- [`react`] potals
+- [`react`, `performance`] profiler
+- [`react`] 재조정(reconciliation)
+- [`react`, `async`, `network`] 외부 API를 사용해서 data가져오기 
+- [`react`] VirtualDOM이 필요한 이유
 
