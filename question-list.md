@@ -76,6 +76,16 @@
 - [`react`, `async`, `network`] 외부 API를 사용해서 data가져오기 
 - [`react`] VirtualDOM이 필요한 이유
 
+### Focus on React Development Environment
+- [`webpack`, `babel`] CRA없이 React환경 구성해보자
+- [`webpack`, `babel`, `css-in-js`] Emotion을 사용해보자
+- [`webpack`, `typescript`] 타입스크립트를 사용해 보자 (without Babel)
+- [`webpack`, `babel`, `typescript`] 타입스크립트를 사용해 보자 (with Babel)
+- [`webpack`, `babel`, `scss`] SCSS를 사용해보자
+- [`webpack`, `eslint`, `prettier`] ESLint와 Prettier를 사용해 규칙에 맞게 코드를 작성하기
+- [`webpack`, `babel`] 바벨 플러그인을 사용해보자
+- [`webpack`, `babel`, `PostCSS`] auto prefixer를 사용해 CSS의 브라우저 호환성을 높이기
+
 ### Focus on JS
 
 - [`js`] var vs let vs const
