@@ -1,82 +1,5 @@
 ## 질문 리스트
 
-### Focus on JS
-
-- [`js`] var vs let vs const
-- [`js`, `비동기`] callback vs promise
-- [`js`] 함수레벨 스코프 vs 블록레벨 스코프
-- [`js`] 실행 컨텍스트와 호이스팅
-- [`js`] 실행 컨텍스트와 클로저
-- [`js`] 실행 컨텍스트와 블록 레벨 스코프
-- [`js`] prototype
-- [`js`] regular function vs arrow function
-- [`js`] this
-- [`js`, `비동기`] async/await
-- [`js`] error handling
-- [`js`] generator
-- [`js`] iterable
-- [`js`] call vs apply vs bind
-- [`js`, `performance`] click event listener에 화살표 함수를 넣는것 vs 일반 함수를 bind하는것
-- [`js`] 생성자 함수
-- [`js`, `design pattern`] mutable vs immutable
-- [`js`, `event`] event delegation
-- [`js`, `array`] 배열 메서드
-- [`js`] undefined vs null
-- [`js`] symbol
-- [`js`] falsy && truthy
-- [`js`] 옵셔널 체이닝
-- [`js`] hasOwnProperty의 위험성
-- [`js`] primitive type vs object
-- [`js`] 순수 함수와 비순수 함수
-- [`js`] 일급 함수
-- [`js`] 전역 스코프와 지역 스코프
-- [`js`] 스코프 체인
-- [`js`] var의 문제점
-- [`js`] property descriptor
-- [`js`] 객체 변경을 방지하는 방법
-- [`js`] 객체 리터럴 vs 생성자 함수
-- [`js`] 객체의 프로퍼티 열거와 순회
-- [`js`] strict mode
-- [`js`] class의 property(field)
-- [`js`] rest 파라미터
-- [`js`] 배열의 고차함수
-- [`js`] Number 메서드
-- [`js`] Math 메서드
-- [`js`] String 메서드
-- [`js`] Iterable
-- [`js`] Set vs Map
-- [`js`, `DOM`] HTMLCollection vs NodeList
-- [`js`, `DOM`] innerHTML vs insertAdjacentHTML
-- [`js`, `DOM`] HTML 어트리뷰트 vs. DOM 프로퍼티
-- [`js`, `event`] Event Type
-- [`js`, `event`] Event Handler내의 this
-- [`js`, `timer`] setInterval vs recursive setTimeout
-- [`browser`] 브라우저의 렌더링 과정
-- [`browser`] reflow를 발생시키는 style property
-- [`browser`] repaint를 발생시키는 style property
-- [`browser`, `event-loop`] macro task queue 사용 사례
-- [`browser`, `event-loop`] micro task queue 사용 사례
-- [`browser`, `event-loop`] animationFrameQueue task queue 사용 사례
-- [`browser`, `event-loop`] setTimeout vs requestAnimationFrame
-- [`browser`] 렌더링 최적화
-- [`browser`, `server`, `network`] 웹의 요청과 응답
-- [`html`] defer vs async
-- [`js`] 다른 두 js파일에서 변수를 공유하는 방법
-- [`js`, `event`] page load 이벤트
-- [`js`, `event`] bubbling 사용 예제
-- [`js`, `event`] capturing 사용 예제
-- [`js`] Element vs Node
-- [`js`, `event`] `element.onclick(doSomthing)` vs `element.addEventListener(doSomething)`
-- [`js`, `performance`, `timer`] debounce vs throttle
-- [`js`, `storage`] cookies vs localStorage vs session storage
-- [`js`, `module`] module
-- [`js`] decorator
-- [`js`] proxy
-- [`js`] intersection observer
-- [`js`, `browser`] history api
-- [`http`] http/1.1 vs http/2
-- [`network`] DNS
-
 ### Focus on React
 - [`react`, `hook`] useState
 	- 같은 값으로 setState해도 re-redering이 될까?
@@ -153,3 +76,79 @@
 - [`react`, `async`, `network`] 외부 API를 사용해서 data가져오기 
 - [`react`] VirtualDOM이 필요한 이유
 
+### Focus on JS
+
+- [`js`] var vs let vs const
+- [`js`, `비동기`] callback vs promise
+- [`js`] 함수레벨 스코프 vs 블록레벨 스코프
+- [`js`] 실행 컨텍스트와 호이스팅
+- [`js`] 실행 컨텍스트와 클로저
+- [`js`] 실행 컨텍스트와 블록 레벨 스코프
+- [`js`] prototype
+- [`js`] regular function vs arrow function
+- [`js`] this
+- [`js`, `비동기`] async/await
+- [`js`] error handling
+- [`js`] generator
+- [`js`] iterable
+- [`js`] call vs apply vs bind
+- [`js`, `performance`] click event listener에 화살표 함수를 넣는것 vs 일반 함수를 bind하는것
+- [`js`] 생성자 함수
+- [`js`, `design pattern`] mutable vs immutable
+- [`js`, `event`] event delegation
+- [`js`, `array`] 배열 메서드
+- [`js`] undefined vs null
+- [`js`] symbol
+- [`js`] falsy && truthy
+- [`js`] 옵셔널 체이닝
+- [`js`] hasOwnProperty의 위험성
+- [`js`] primitive type vs object
+- [`js`] 순수 함수와 비순수 함수
+- [`js`] 일급 함수
+- [`js`] 전역 스코프와 지역 스코프
+- [`js`] 스코프 체인
+- [`js`] var의 문제점
+- [`js`] property descriptor
+- [`js`] 객체 변경을 방지하는 방법
+- [`js`] 객체 리터럴 vs 생성자 함수
+- [`js`] 객체의 프로퍼티 열거와 순회
+- [`js`] strict mode
+- [`js`] class의 property(field)
+- [`js`] rest 파라미터
+- [`js`] 배열의 고차함수
+- [`js`] Number 메서드
+- [`js`] Math 메서드
+- [`js`] String 메서드
+- [`js`] Iterable
+- [`js`] Set vs Map
+- [`js`, `DOM`] HTMLCollection vs NodeList
+- [`js`, `DOM`] innerHTML vs insertAdjacentHTML
+- [`js`, `DOM`] HTML 어트리뷰트 vs. DOM 프로퍼티
+- [`js`, `event`] Event Type
+- [`js`, `event`] Event Handler내의 this
+- [`js`, `timer`] setInterval vs recursive setTimeout
+- [`browser`] 브라우저의 렌더링 과정
+- [`browser`] reflow를 발생시키는 style property
+- [`browser`] repaint를 발생시키는 style property
+- [`browser`, `event-loop`] macro task queue 사용 사례
+- [`browser`, `event-loop`] micro task queue 사용 사례
+- [`browser`, `event-loop`] animationFrameQueue task queue 사용 사례
+- [`browser`, `event-loop`] setTimeout vs requestAnimationFrame
+- [`browser`] 렌더링 최적화
+- [`browser`, `server`, `network`] 웹의 요청과 응답
+- [`html`] defer vs async
+- [`js`] 다른 두 js파일에서 변수를 공유하는 방법
+- [`js`, `event`] page load 이벤트
+- [`js`, `event`] bubbling 사용 예제
+- [`js`, `event`] capturing 사용 예제
+- [`js`] Element vs Node
+- [`js`, `event`] `element.onclick(doSomthing)` vs `element.addEventListener(doSomething)`
+- [`js`, `performance`, `timer`] debounce vs throttle
+- [`js`, `storage`] cookies vs localStorage vs session storage
+- [`js`, `module`] module
+- [`js`] decorator
+- [`js`] proxy
+- [`js`] intersection observer
+- [`js`, `browser`] history api
+- [`http`] http/1.1 vs http/2
+- [`network`] DNS
