@@ -25,3 +25,5 @@
 
 - [질문 리스트](./question-list.md)
 - [3기 하브루타 프론트엔드 스터디](https://github.com/woowacourse-fe-study/havruta-frontend)
+- [Kent C.Doods Blog](https://kentcdodds.com/blog)
+- [Overreacted](https://overreacted.io/)
