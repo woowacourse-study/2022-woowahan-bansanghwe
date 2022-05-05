@@ -3,20 +3,20 @@
 ### Focus on React
 - [`react`, `hook`] useState
 	- 같은 값으로 setState해도 re-redering이 될까?
-		- ko.reactjs.org/docs/hooks-reference.html#bailing-out-of-a-state-update
+		- [bailing-out-of-a-state-update](ko.reactjs.org/docs/hooks-reference.html#bailing-out-of-a-state-update)
 	- props로 초기값을 받을때 props가 바뀌면 초기값도 바뀔까?
 	- 이전 상태값 가져오기
-		- ko.reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state
+		- [how-to-get-the-previous-props-or-state](ko.reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state)
 	- 상태값을 객체에 다 때려 넣기 vs 쪼개서 다른 상태값으로 관리하기
-		- ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables
+		- [should-i-use-one-or-many-state-variables](ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables)
 	- useState안에 함수를 넣으면?
 	- setState안에 함수를 넣으면?
 - [`react`, `hook`] useEffect
 	- dependency에 함수를 넣으면?
 	- useEffect안에서 함수를 정의하는 경우
-		- ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies
+		- [is-it-safe-to-omit-functions-from-the-list-of-dependencies](ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies)
 	- dependency에 state를 넣지 않고도 안에서 state를 사용하는 방법
-		- ko.reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often
+		- [what-can-i-do-if-my-effect-dependencies-change-too-often](ko.reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often)
 - [`react`, `hook`] useCallback
 	- 최적화에 어떤 도움을 주는가?
 - [`react`, `hook`] useMemo
@@ -48,19 +48,19 @@
 - [`react`] 순수함수란 무엇인가?
 - [`react`] Class Component에 비해 Hook + Functional Component가 가지는 이점은?
 - [`react`, `hook`] useState는 어떻게 이전 상태를 기억하는가?
-	- https://ko.reactjs.org/docs/hooks-faq.html#how-does-react-associate-hook-calls-with-components
+	- [how-does-react-associate-hook-calls-with-components](https://ko.reactjs.org/docs/hooks-faq.html#how-does-react-associate-hook-calls-with-components)
 - [`react`] 강제 re-rendering시키는 방법 (forceUpdate)
-	- https://ko.reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate
+	- [is-there-something-like-forceupdate](https://ko.reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate)
 - [`react`, `hook`] 왜 조건문 안에 hook을 쓰면 안될까?
 - [`react`] 조건적으로 rendering을 하는 방법
 - [`react`] rendering자체를 막는 방법
 - [`react`, `performance`] React.memo
 	- shouldComponentUpdate처럼 사용하기
-		- ko.reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate
+		- [how-do-i-implement-shouldcomponentupdate](ko.reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate)
 	- useMemo를 React.memo처럼 사용하는 방법
-		- ko.reactjs.org/docs/hooks-faq.html#how-to-memoize-calculations
+		- [how-to-memoize-calculations](ko.reactjs.org/docs/hooks-faq.html#how-to-memoize-calculations)
 - [`react`, `performance`] 배열을 map돌려서 list를 그릴때 key가 왜 필요한가?
-	- https://ko.reactjs.org/docs/reconciliation.html#keys
+	- [keys](https://ko.reactjs.org/docs/reconciliation.html#keys)
 - [`react`, `performance`] index를 key로 쓰면 안되는 이유는?
 - [`react`] Controlled Component vs Uncontrolled Component
 - [`react`] Presentational Component vs Container Component
