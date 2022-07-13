@@ -1,0 +1,79 @@
+# 2022-07-11 반상회
+
+# 마주한 문제들
+
+스프린트 1차 기간 동안 어떤 어려움을 겪었고, 어떻게 해결했는지 이야기를 나누어 봅시다.
+
+## 기술적인 부분
+
+**React, Javascript, Typescript, Library, 개발 환경 설정 ...**
+
+- infinite scroll을 구현할때 추가 로딩이 안되서 삽질을 했습니다. 알고보니 추가 로딩을 하는 함수를 hook에 넘겨줄때 dependency에 넣어주지 않아서,
+  staled state가 생겼던것이 원인이었습니다.
+
+- typescript로 코딩 하던 중에 [type 추론이 안되는 문제](https://www.typescriptlang.org/play?ssl=20&ssc=1&pln=1&pc=1#code/C4TwDgpgBAChBOBnA9gOygXigbwFBQKgEMBjE5AV1WAH4AuHfQ5gWzQhAdQpYCMEmBAL64RucqkTAokJGgZw56LNjEB6NVBJFEEAIxQAtFGAALAJaIolqKmTSE8ZPFzmAZlAAUslKgB0pORUtH5sqByYGFgADACUjMwSKAA2EH7JyADm3gi+AWSU1DSh7CCxANyiuLgaWjoQAExGUADyvABWECTSNmDIiIjmvMkgUADkVAAmEG7m4ZNjfp4NAKwAzA2xrh45SvlBRSXhowB8UHEJhLVmNjZEySitHV09Vn0DQyPjUzNzEAtLVYbLbMWoAd1Moxo1g8PjQ+0KITCETO0WsVmAFHgEAANCZTBB0GDoNp0IgsdA4f5Aoj0bYIAA3BBQH6zeZ+QRaNApNIZbJUhHBI4cCpVIA)를 발견했습니다. 타입스크립트의 문제라기 보다는 제가 뭔가 모르는것 같아서, [stackoverflow에 질문](https://stackoverflow.com/questions/72929505/typescript-object-is-possibly-undefined-in-similar-cases)을 남겼습니다.
+
+- Event Handler가 받는 event객체의 target에 type을 지정해 주는 방법이 as말고 있는가? generic으로는 **왜**안되는 것인가?
+
+- 리액트 컴포넌트에서 jsx를 리턴할때, 삼항연산자가 너무 많이 들어가서 어떻게 해결해야할지 고민했습니다. 결과적으로는 [함수로 빼서](https://github.com/airman5573/2022-moamoa/blob/2ee313cddcff465d03cbbd45957bee3e3697eb67/frontend/src/pages/MainPage/index.tsx#L113) if문을 사용했는데요, 뭔가 코드가 빙~돌아가는 느낌이 들어서 다른 방법을 찾고 있습니다. 현재로써는 [react-if](https://romac.github.io/react-if/) 라이브러리가 가장 괜찮은 해결책으로 보입니다.
+
+- React 환경 설정을 많이 해보긴 했는데, 그래도 여전히 어려웠습니다. 페어한테 설명을 해주면서 막히는 부분들이 많았고 그래서 전반적으로 다시 꼼꼼하게 공부를 했습니다. 그 공부의 결과물로 [블로그 글](https://develoger.kr/frontend/cra%ec%97%86%ec%9d%b4-%eb%a6%ac%ec%95%a1%ed%8a%b8-%ed%99%98%ea%b2%bd-%ec%84%a4%ec%a0%95/)을 작성 했습니다.
+
+- useRef를 쓸때 current값을 바꿀 수 없었습니다.
+
+```tsx
+const personObj = {
+  name: "yoon",
+  age: 28,
+};
+const personRef = useRef<Person>(null);
+// Cannot assign to 'current' because it is a read-only property.
+personRef.current = personObj;
+
+const personRef2 = useRef<Person | null>(null);
+personRef2.current = personObj;
+```
+
+`Cannot assign to 'current' because it is a read-only property.` 이런 에러가 떴습니다.  
+저는 '어? 이거 왜...못바꾸지?' 이렇게 생각하고, 찾아봤습니다.
+
+```ts
+// T에 Person을 넣고, initialValue에 null을 넣으면 RefObject로 판정이 난다
+function useRef<T>(initialValue: T | null): RefObject<T>;
+interface RefObject<T> {
+  readonly current: T | null; // readonly가 붙어있다
+}
+
+// T에 Person | null을 넣고, initialValue에 null을 넣으면 MutableRefObject로 판정이 난다
+function useRef<T>(initialValue: T): MutableRefObject<T>;
+```
+
+- useImperativeHandle hook
+
+- RefObject 와 MutableRefObject의 차이는 무엇이고 왜 이거 두개를 만들었는가? 그러니까, MutableRefObject만 있으면 되는거 아닌가? readonly왜 필요함?
+
+## 기타등등
+
+**커뮤니케이션, 협업, 등등**
+
+- 찐한 회고를 했다. 불만사항 표.출.
+
+# 레벨 인터뷰
+
+레벨 인터뷰에서 만족스러웠던 부분과 개선할 부분에 대해서 이야기를 나누어 봅시다
+
+## 만족스러운 부분
+
+## 개선할점
+
+# 나누고 싶은 것들
+
+## Emotion StyledComponent
+
+```jsx
+const SomeText = styled.div`
+  color: ${(props) => props.theme.colors.primary};
+`;
+```
+
+- [tagged template 사용법](https://stackoverflow.com/a/53084271/9279003)
