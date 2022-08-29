@@ -21,9 +21,11 @@
 
 - 모임 전에 discussion에 발표 자료를 작성합니다
 
+## 질문 리스트
+[질문 리스트 보러가기](./question-list.md)
+
 ## 기타 등등
 
-- [질문 리스트](./question-list.md)
 - [3기 하브루타 프론트엔드 스터디](https://github.com/woowacourse-fe-study/havruta-frontend)
 - [Kent C.Doods Blog](https://kentcdodds.com/blog)
 - [Overreacted](https://overreacted.io/)
