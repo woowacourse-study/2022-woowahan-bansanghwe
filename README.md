@@ -51,10 +51,6 @@
 - 10:21 ~ 10:30 => 7,000원
 이후 천원씩 증가
 
-### 벌금 사용처
-
-미정
-
 ## 기타 등등
 
 - [3기 하브루타 프론트엔드 스터디](https://github.com/woowacourse-fe-study/havruta-frontend)
