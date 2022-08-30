@@ -19,7 +19,7 @@
 
 ### 2기
 
-[우디](https://github.com/greenblues1190), [앨버](https://github.com/al-bur), [코이](https://github.com/InKyoJeong), [병민](https://github.com/airman5573), [동키콩](https://github.com/JUDONGHYEOK), [위니](https://github.com/rladpwl0512)
+[우디](https://github.com/greenblues1190), [앨버](https://github.com/al-bur), [코이](https://github.com/InKyoJeong), [병민](https://github.com/airman5573), [동키콩](https://github.com/JUDONGHYEOK), [위니](https://github.com/rladpwl0512), [밧드](https://github.com/kamwoo)
 
 ## 일시
 
