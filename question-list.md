@@ -1,7 +1,3 @@
-# frontend job interview
-개발 면접때 자주나오는 질문들과 그에대한 상세한 설명을 기록합니다.
-대충 알고있던 개념들을 더욱 명확하게 합니다. 면접대비를 위함이지만, 본질적으로는 개념을 확실하게 익히자는 의도를 갖고있습니다.
-
 # 태그 리스트
 - `browser`, `dom`, `event-loop`, `storage`,
 - `js`, `callback`, `promise`, `async`, `prototype`, `execution-context`, `error-handling`, `this`, `scope`, `class`, `event`
