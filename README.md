@@ -19,7 +19,7 @@
 
 ### 2기
 
-[민초](https://github.com/jswith), [우디](https://github.com/greenblues1190), [앨버](https://github.com/al-bur), [코이](https://github.com/InKyoJeong), [병민](https://github.com/airman5573), [밧드](https://github.com/kamwoo), [동키콩](https://github.com/JUDONGHYEOK), [무비](https://github.com/byhhh2), [자스민](https://github.com/hwangstar156)
+[민초](https://github.com/jswith), [우디](https://github.com/greenblues1190), [앨버](https://github.com/al-bur), [병민](https://github.com/airman5573), [밧드](https://github.com/kamwoo), [동키콩](https://github.com/JUDONGHYEOK), [무비](https://github.com/byhhh2), [자스민](https://github.com/hwangstar156)
 
 ## 일시
 
