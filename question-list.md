@@ -199,6 +199,7 @@
 - react-query의 stale time과 cache time의 차이에 대해 설명해 주세요 [`high`, `react`, `react-query`, `why`] 
 - Class Component의 life cycle과 Hook + Function Component의 life cycle의 차이점에 대해 설명해 주세요 [`high`, `react`] 
 - Suspense와 Error Boundary를 사용했을때의 장점에 대해 설명해 주세요 [`high`, `react`, `pattern`] 
+- React의 Single Source Of Truth에 대해 설명해 주세요 [`high`, `react`] 
 
 ### Normal
 
