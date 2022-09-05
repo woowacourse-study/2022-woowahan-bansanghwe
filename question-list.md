@@ -114,6 +114,7 @@
 - SSR(server side rendering)의 장점은 무엇인가요? [`high`, `ssr`] 
 - CSR과 SSR의 차이점에 대해 설명해 주세요 [`high`, `ssr`] 
 - 왜 CSS <link>를 <head>에 놓는것이 좋은지 설명해 주세요 [`high`, `browser`, `html`] 
+- 왜 javascript는 기본적으로 parsing을 차단하는 방식으로 동작할까요?
 
 ### Normal
 
