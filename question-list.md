@@ -44,7 +44,7 @@
 - cookies vs localStorage vs session storage [`high`, `js`, `network`]
 - accessToken을 어떻게 관리하는것이 안전할까요? [`high`, `js`, `network`]
 - 무한 스크롤을 구현할때 intersection observer가 scroll event listener보다 더 좋은 이유를 설명해 주세요 [`high`, `js`, `browser`, `event-loop`]
-- commonjs vs es6 module [`high` `js`, `module`] 
+- commonjs vs es6 module, 모듈의 역사 [`high` `js`, `module`] 
 - 클로저에 대해 설명해 주세요 [`high`, `js`] 
 - 렉시컬 환경(Lexical Environment)에 대해 설명해 주세요 [`high`, `js`] 
 - javascript가 유동적인 언어인 이유는 무엇인가요? [`high`, `js`] 
