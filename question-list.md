@@ -20,13 +20,16 @@
 ### Critical
 
 - prototype의 장점이 무엇이길래 javascript에서 채택했을까요? 그렇다면 prototype은 무엇인가요? [`critical`, `js`, `prototype`, `why`]
+    - [4기 동키콩](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/61)
 - 최근 js의 동향에 대해 설명해 주세요 [`critical`, `js`]
 - javascript의 문제점으로 무엇이 있고, 왜 그게 문제점일까요? [`critical`, `js`, `why`]
 - 왜 typescript가 각광받고, js에선 ts를 표준으로 합치려 할까요? (벌써 Stage 1;;) [`critical`, `ts`, `why`]
 - javascript 태동기에 목표는 무엇이고, 지금과 어떤게 달라졌나요? [`critical`, `js`] 
 - ECMAScript에서 해결하려는 문제는 무엇이고, 앞으로의 과제는 무엇일까요? [`critical`, `js`] 
 - 브라우저가 동시성 문제를 어떻게 해결했는지 설명해 주세요 [`critical`, `browser`, `event-loop`] 
+    - [4기 자스민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/64)
 - 명령형(Imperative) 프로그래밍 vs 선언형(Declarative) 프로그래밍 [`critical`, `js`, `paradigm`] 
+    - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/74)
 - 최근에 개발중 했던 추상화에 대해 소개해 주세요 [`critical`, `js`] 
 
 ### High
@@ -37,16 +40,20 @@
 - 실행 컨텍스트가 없는 다른 언어가 있을까요? [`high`, `js`, `execution-context`] 
 - 일반 함수와 화살표 함수의 차이점은 무엇일까요? [`high`, `js`] 
 - this에 대해서 설명해 주세요 [`high`, `js`]
+    - [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/83)
 - promise에 비해 async/await가 가지는 장점은 무엇인가요? [`high`, `js`, `async`] 
 - 순수 함수란 무엇이고 이 함수가 가지는 장점은 무엇인가요? [`high`, `js`] 
 - 스코프 체인이란 무엇인가요? [`high`, `js`]
+    - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/79)
 - 애니메니션을 구현할때 requestAnimationFrame이 setTimeout보다 어떤점에서 더 좋은건가요? [`high`, `browser`, `event-loop`]
 - cookies vs localStorage vs session storage [`high`, `js`, `network`]
 - accessToken을 어떻게 관리하는것이 안전할까요? [`high`, `js`, `network`]
 - 무한 스크롤을 구현할때 intersection observer가 scroll event listener보다 더 좋은 이유를 설명해 주세요 [`high`, `js`, `browser`, `event-loop`]
-- commonjs vs es6 module [`high` `js`, `module`] 
+- commonjs vs es6 module (+모듈의 역사) [`high` `js`, `module`] 
+    - [4기 자스민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/82)
 - 클로저에 대해 설명해 주세요 [`high`, `js`] 
 - 렉시컬 환경(Lexical Environment)에 대해 설명해 주세요 [`high`, `js`] 
+    - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/73)
 - javascript가 유동적인 언어인 이유는 무엇인가요? [`high`, `js`] 
 - 깊은 복사와 얕은 복사에 대해 설명해 주세요 [`high`, `js`] 
 - css 으로 animation을 구현하는것과 js로 animation을 구현하는것의 차이점에 대해 설명해 주세요 [`high`, `js`, `css`] 
@@ -100,7 +107,9 @@
 ### Critical
 
 - Critical Rendering Path 대해 설명해 주세요 [`critical`, `browser`] 
+    - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/60)
 - rendering을 차단하는 리소스는 어떤것들이 있나요? [`critical`, `browser`] 
+    - [4기 앨버](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/65)
 
 ### High
 
@@ -110,6 +119,7 @@
 - async의 단점에 대해 설명해 주세요 [`high`, `browser`, `html`] 
 - defer 단점에 대해 설명해 주세요 [`high`, `browser`, `html`] 
 - Webpack의 Code Spliting에 대해 설명해 주세요 [`high`, `bundle`, `webpack`, `module`] 
+    - [4기 민초](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/72)
 - Incremental Rendering과 SSR(server side rendering)에 대해 설명해 주세요 [`high`, `ssr`] 
 - SSR(server side rendering)의 장점은 무엇인가요? [`high`, `ssr`] 
 - CSR과 SSR의 차이점에 대해 설명해 주세요 [`high`, `ssr`] 
@@ -122,6 +132,7 @@
 - repaint를 발생시키는 style property는 대표적으로 어떤것들이 있을까요? [`normal`, `browser`] 
 - 번들 사이즈를 줄이려면 어떻게 해야 할까요? [`normal`, `bundle`, `webpack`] 
 - tree shaking에 대해 설명해 주세요 [`normal`, `bundle`, `webpack`, `module`] 
+    - [4기 무비](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/75)
 - Static/Dynmic Import에 대해 설명해 주세요 [`normal`, `js`, `module`] 
 
 ## Network
@@ -129,21 +140,29 @@
 ### Critical
 
 - 주소창에 www.naver.com을 치고 나서 발생하는 일들에 대해 설명해 주세요 [`critical`, `network`, `browser`] 
+    - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/63)
 - RESTfull API에 대해 설명해 주세요 [`critical`, `network`, `paradigm`] 
 - Get vs Post vs Put vs Patch vs Delete [`critical`, `network`] 
 - CORS에 대해 설명해 주세요 [`critical`, `network`] 
+    - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/18)
+    - [4기 앨버](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/71)
+- HTTP 캐싱에 대해 설명해 주세요 [`critical`, `network`, `cache`]
+    - [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/67)
 
 ### High
 
 - OSI 7계층에 대해 설명해 주세요 [`high`, `network`] 
 - TCP/IP에 대해 설명해 주세요 [`high`, `network`] 
+    - [4기 민초](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/66)
 - TCP/IP vs UDP [`high`, `network`] 
 - http/1.1 vs http/2 [`high`, `network`] 
 - DNS에 대해 설명해 주세요 [`high`, `network`] 
 - URL vs URI [`high`, `network`] 
 - CDN(Content Delivery Network)에 대해 설명해 주세요 [`high`, `network`] 
+    - [4기 동키콩](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/84)
 - 웹 소켓에 대해 설명해 주세요 [`high`, `network`] 
 - http header의 cache-control에 대해 설명해 주세요 [`high`, `network`, `browser`] 
+    - [4기 동키콩](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/77)
 - 사이트를 배포 했는데 사용자 브라우저에 캐쉬가 남아있는 경우 어떻게 해야 할까요? [`high`, `network`, `browser`] 
 - http vs https [`high`, `network`, `secure`] 
 - XSS(Cross-site scripting)에 대해 설명해 주세요 [`high`, `network`, `secure`] 
@@ -188,6 +207,7 @@
 - Controlled Component vs Uncontrolled Component [`high`, `react`] 
 - Hook은 Presentational/Container pattern을 대체할 수 있나요? [`high`, `react`, `pattern`] 
 - VirtualDOM이 필요한 이유에 대해 설명해 주세요 [`high`, `react`] 
+    - [4기 무비](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/68)
 - React18에 본격적으로 적용된 concurrent mode에 대해 설명해 주세요 [`high`, `react`] 
 - Fiber에 대해 설명해 주세요 [`high`, `react`] 
 - 컴포넌트 분리 기준에 대해 설명해 주세요 [`high`, `react`] 
