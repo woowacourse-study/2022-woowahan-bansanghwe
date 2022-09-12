@@ -21,6 +21,7 @@
 
 - prototype의 장점이 무엇이길래 javascript에서 채택했을까요? 그렇다면 prototype은 무엇인가요? [`critical`, `js`, `prototype`, `why`]
     - [4기 동키콩](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/61)
+    - [4기 무비](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/87)
 - 최근 js의 동향에 대해 설명해 주세요 [`critical`, `js`]
 - javascript의 문제점으로 무엇이 있고, 왜 그게 문제점일까요? [`critical`, `js`, `why`]
 - 왜 typescript가 각광받고, js에선 ts를 표준으로 합치려 할까요? (벌써 Stage 1;;) [`critical`, `ts`, `why`]
@@ -32,12 +33,16 @@
     - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/74)
 - 최근에 개발중 했던 추상화에 대해 소개해 주세요 [`critical`, `js`] 
 - Event Loop에 대해 설명해주세요 [`critical`, `js`, `event-loop`]
+    - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/90)
 
 ### High
 
+- callback, promise, async/await [`high`, `js`]
+    - [4기 앨버](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/88)
 - var vs let vs const [`high`, `js`] 
 - callback vs promise [`high`, `js`, `async`] 
 - 실행 컨텍스트에 대해 설명해 주세요 [`high`, `js`, `execution-context`] 
+    - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/89)
 - 실행 컨텍스트가 없는 다른 언어가 있을까요? [`high`, `js`, `execution-context`] 
 - 일반 함수와 화살표 함수의 차이점은 무엇일까요? [`high`, `js`] 
 - this에 대해서 설명해 주세요 [`high`, `js`]
@@ -56,7 +61,8 @@
 - 렉시컬 환경(Lexical Environment)에 대해 설명해 주세요 [`high`, `js`] 
     - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/73)
 - javascript가 유동적인 언어인 이유는 무엇인가요? [`high`, `js`] 
-- 깊은 복사와 얕은 복사에 대해 설명해 주세요 [`high`, `js`] 
+- 깊은 복사와 얕은 복사에 대해 설명해 주세요 [`high`, `js`] 사
+    - [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/86)
 - css 으로 animation을 구현하는것과 js로 animation을 구현하는것의 차이점에 대해 설명해 주세요 [`high`, `js`, `css`] 
 - javascript가 객체 지향 언어라고 하는데 그 이유가 무엇일지 이야기 해주세요 [`high`, `js`, `pattern`] 
 - primitive data인데 어떻게 내장 함수를 사용할 수 있는걸까요? (`"Hello".toLowerCase()`); [`high`, `js`] 
@@ -64,6 +70,7 @@
 - MVC pattern에 대해 설명해 주세요  [`high`, `js`, `pattern`]
 - Flux pattern에 대해 설명해 주세요  [`high`, `js`, `pattern`]
 - javascript에서 함수란? [`high`, `js`]
+    - [4기 자스밍](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions)
 
 ### Normal
 
@@ -189,6 +196,7 @@
 
 - SPA의 장점에 대해 설명해주세요 [`high`, `react`] 
 - Render Phase와 Commit Phase에 대해서 설명해 주세요 [`high`, `react`] 
+    - [4기 민초](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions)
 - Hooks의 장점은 무엇인가요? [`high`, `react`] 
 - Class Component vs Function Component [`high`, `react`] 
 - CSS in CSS(css, sass, css-module) vs CSS in JS(emotion, styled-component) [`high`, `react`] 
