@@ -62,6 +62,7 @@
 - type vs interface  [`high`, `ts`]
 - MVC pattern에 대해 설명해 주세요  [`high`, `js`, `pattern`]
 - Flux pattern에 대해 설명해 주세요  [`high`, `js`, `pattern`]
+- javascript에서 함수란? [`high`, `js`]
 
 ### Normal
 
