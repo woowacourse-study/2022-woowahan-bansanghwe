@@ -31,7 +31,7 @@
 - 명령형(Imperative) 프로그래밍 vs 선언형(Declarative) 프로그래밍 [`critical`, `js`, `paradigm`] 
     - [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/74)
 - 최근에 개발중 했던 추상화에 대해 소개해 주세요 [`critical`, `js`] 
-- Event Loop란 ? [`critical`, `js`]
+- Event Loop에 대해 설명해주세요 [`critical`, `js`, `event-loop`]
 
 ### High
 
