@@ -40,6 +40,7 @@
 - callback, promise, async/await [`high`, `js`]
     - [4기 앨버](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/88)
 - var vs let vs const [`high`, `js`] 
+    - [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/98)
 - callback vs promise [`high`, `js`, `async`] 
 - 실행 컨텍스트에 대해 설명해 주세요 [`high`, `js`, `execution-context`] 
     - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/89)
