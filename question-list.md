@@ -25,8 +25,8 @@
 - 최근 js의 동향에 대해 설명해 주세요 [`critical`, `js`]
 - javascript의 문제점으로 무엇이 있고, 왜 그게 문제점일까요? [`critical`, `js`, `why`]
 - 왜 typescript가 각광받고, js에선 ts를 표준으로 합치려 할까요? (벌써 Stage 1;;) [`critical`, `ts`, `why`]
-- javascript 태동기에 목표는 무엇이고, 지금과 어떤게 달라졌나요? [`critical`, `js`] 
-- ECMAScript에서 해결하려는 문제는 무엇이고, 앞으로의 과제는 무엇일까요? [`critical`, `js`] 
+- javascript 태동기에 목표는 무엇이고, 지금과 어떤게 달라졌나요? [`critical`, `js`]
+- ECMAScript에서 해결하려는 문제는 무엇이고, 앞으로의 과제는 무엇일까요? [`critical`, `js`]
 - 브라우저가 동시성 문제를 어떻게 해결했는지 설명해 주세요 [`critical`, `browser`, `event-loop`] 
     - [4기 자스민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/64)
 - 명령형(Imperative) 프로그래밍 vs 선언형(Declarative) 프로그래밍 [`critical`, `js`, `paradigm`] 
@@ -42,6 +42,7 @@
 - var vs let vs const [`high`, `js`] 
     - [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/98)
 - callback vs promise [`high`, `js`, `async`] 
+	- [4기 병민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/113)
 - 실행 컨텍스트에 대해 설명해 주세요 [`high`, `js`, `execution-context`] 
     - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/89)
 - 실행 컨텍스트가 없는 다른 언어가 있을까요? [`high`, `js`, `execution-context`] 
@@ -187,11 +188,14 @@
 ### Critical
 
 - react가 해결하려는 문제는 무엇인가요? [`critical`, `react`] 
-- 컴포넌트란 무엇인가요? [`critical`, `react`] 
+- 컴포넌트란 무엇인가요? [`critical`, `react`]
+	- [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/116)
 - ContextAPI의 문제점은 무엇인가요? [`critical`, `react`, `hook`, `context`] 
 - 웹 개발의 시대가 jQuery에서 React나 Vue로 넘어온 이유가 무엇일까요? [`critical`, `react`] 
 - React와 Vue는 서로가 어떤게 다르길래, 사용 대상이 나뉘는 걸까요? [`critical`, `react`] 
 - 리액트의 재조정(reconciliation)과정에 대해 설명해 주세요 [`critical`, `react`] 
+- 리액트란?
+	- [4기 자스민](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/117)
 
 ### High
 
@@ -209,6 +213,7 @@
 - useEffect vs useLayoutEffect [`high`, `react`, `hook`] 
 - useTransition은 어떤 문제를 해결하기 위해 나온 훅인가요? [`high`, `react`, `hook`] 
 - Prop drilling을 해결하기 위한 방법에 대해 설명해 주세요 [`high`, `react`, `context`] 
+	- [4기 밧드](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/115)
 - JSX에서 if-else를 왜 사용할 수 없나요? [`high`, `react`, `jsx`] 
 - Class Component에 비해 Hook + Functional Component가 가지는 이점은? [`high`, `react`] 
 - useState는 어떻게 이전 상태를 기억하나요? [`high`, `react`, `hook`] 
