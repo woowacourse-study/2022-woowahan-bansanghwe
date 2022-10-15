@@ -73,6 +73,8 @@
 - Flux pattern에 대해 설명해 주세요  [`high`, `js`, `pattern`]
 - javascript에서 함수란? [`high`, `js`]
     - [4기 자스밍](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions)
+- 구조적 서브 타이핑이란?  [`high`, `ts`]
+    - [4기 앨버](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/114)
 
 ### Normal
 
