@@ -55,6 +55,7 @@
     - [4기 우디](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/79)
 - 애니메니션을 구현할때 requestAnimationFrame이 setTimeout보다 어떤점에서 더 좋은건가요? [`high`, `browser`, `event-loop`]
 - cookies vs localStorage vs session storage [`high`, `js`, `network`]
+    - [4기 민초](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions/104)
 - accessToken을 어떻게 관리하는것이 안전할까요? [`high`, `js`, `network`]
 - 무한 스크롤을 구현할때 intersection observer가 scroll event listener보다 더 좋은 이유를 설명해 주세요 [`high`, `js`, `browser`, `event-loop`]
 - commonjs vs es6 module (+모듈의 역사) [`high` `js`, `module`] 
