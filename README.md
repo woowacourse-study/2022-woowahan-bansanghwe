@@ -35,7 +35,7 @@
 
 ## 준비사항
 
-- 인터뷰이는 **토요일 20시**까지 자신이 맡은 질문의 모범답안을 discussion에 업로드 합니다
+- 인터뷰이는 **토요일 20시**까지 자신이 맡은 질문의 모범답안을 [discussion](https://github.com/woowacourse-study/2022-woowahan-bansanghwe/discussions)에 업로드 합니다
 - 인터뷰어는 인터뷰이가 올린 글을 **미리 읽고 숙지**합니다
 
 ## 질문 리스트
